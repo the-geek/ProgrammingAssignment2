@@ -20,8 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve returns the cached inverse value if available otherwise it calculates
-## the inverse and cache it
+## cacheSolve returns the cached inverse value if available, otherwise it calculates
+## the inverse and caches it
 
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
